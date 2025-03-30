@@ -25,7 +25,7 @@ body {
   background-color: hsl(30, 38%, 92%);
   color: hsl(228, 12%, 48%);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -47,10 +47,72 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 4.4rem;
+  /* gap: 4.4rem; */
 }
 
 .img-desktop {
   height: 100%;
   width: 100%;
+}
+
+.details {
+  padding: 3.6rem;
+}
+
+.perfume {
+  letter-spacing: 0.9rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.header-first {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+  font-size: 3.8rem;
+}
+
+.par-floral {
+  margin: 3.2rem 0;
+}
+
+.price-flex {
+  font-family: "Fraunces", sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+
+.price-green {
+  font-size: 3.6rem;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+}
+
+.add:link,
+.add:visited {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  padding: 1.2rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 11px;
+  display: inline-block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.add:hover,
+.add:active {
+  cursor: pointer;
+  background-color: hsl(158, 42%, 18%);
+}
+
+.img-card {
+  padding-right: 0.8rem;
+  text-align: center;
 }
