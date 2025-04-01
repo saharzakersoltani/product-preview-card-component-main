@@ -55,6 +55,12 @@ body {
   width: 100%;
 }
 
+.img-mobile {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
 .details {
   padding: 3.6rem;
 }
